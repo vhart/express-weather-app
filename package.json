@@ -1,0 +1,17 @@
+{
+  "name": "express-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-launch": "nodemon src/app.js -e js,hbs",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.4"
+  }
+}
